@@ -1,10 +1,63 @@
-/*ESG 프로젝트 전역 CSS*/
+/*ESG 프로젝트 전역 CSS 초기화 셋팅값*/
+/*프로젝트 내에 모든 컴포넌트 및 페이지들은 전역 CSS가 우선 적용됩니다.*/
+/*변경하고 싶은 CSS는각자 MODULE.css 덮어씌어주세요.*/
 
-body {
-  margin: 0;
+/*ESG Color Branding*/
+:root {
+  --bun: #e7b56a; /*토스트번*/
+  --green: #8bc34a; /*양상추*/
+  --tomato: #ff5a4f; /*토마토*/
+  --patty: #4a2e24; /*패티*/
+  --background: #2a2522; /*텍스트*/
+  --ivory: #fff8ec; /*배경*/
+  --pickle: #7ed6a5; /*피클*/
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
 }
 
-.title {
-  background-color: palegreen;
+/*공통*/
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: light;
+}
+/*BODY 초기화*/
+body {
+  background-color: var(--background);
+  color: var(--ivory);
+  line-height: 1.4; /*줄간격*/
+  -webkit-tap-highlight-color: transparent; /*모바일 파란배경 제거*/
+}
+/* 리스트 스타일 제거 */
+ul,
+ol {
+  list-style: none;
+}
+/* 이미지 반응형 */
+img {
+  max-width: 100%;
+  display: block;
+}
+/* 링크 초기화 */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+/*버튼 초기화*/
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+}
+/*INPUT 초기화*/
+input,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+  border: none;
 }
