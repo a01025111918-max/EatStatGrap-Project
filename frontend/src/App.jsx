@@ -129,7 +129,7 @@ function App() {
         ) : (
           !error2 && (
             <p>
-              버튼을 클릭하시면 Front-spring boot-DB 와 통신확인할수 있습니다
+              버튼을 클릭하시면 Front-spring boot-DB 와 통신확인할수 있습니다.
             </p>
           )
         )}
