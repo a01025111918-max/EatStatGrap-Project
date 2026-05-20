@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.project.esg.choice.dao.ChoiceDao">
+    <select id="select">
+        select test1 from test_tbl where test2 = 'db_connect_success_2026';
+
+    </select>
+	
+</mapper>
+
